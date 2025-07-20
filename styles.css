@@ -1,0 +1,82 @@
+h1, p {
+  margin-top: 6px;
+  margin-bottom: 5px;
+}
+
+body {
+    background-color: #F4D04E;
+    margin: 0; /* Убираем отступы по умолчанию */
+    min-height: 100vh; /* Занимаем всю высоту экрана */
+    display: flex;
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: center;
+    font-family: Figtree;
+}
+
+.main-div {
+    width: 380px;          /* Ширина блока */
+    max-width: 400px;
+    height: 500px;         /* Высота блока */
+    border: 1px solid #000000; /* Рамка: толщина, тип, цвет */
+    border-radius: 25px;   /* Скругление углов (можно в px или %) */
+    /*padding: 15px;*/        /* Отступ внутри блока */
+    background-color: #f8f9fa; /* Цвет фона */
+    
+    box-shadow: 5px 5px 5px rgba(0,0,0,1);
+}
+
+.div-pic {
+    margin-top: 20px;
+    text-align: center;   /* Выравнивание текста по центру */
+}
+
+.main-text {
+    /*margin-top: 10px;*/
+    padding-left: 22px;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    flex-direction: column;
+    margin: 0px;
+    gap: 0px;
+}
+
+.upper-p {
+    padding: 10px;
+    font-weight: 700;
+    background-color:#F4D04E;
+    border-radius: 5px;
+}
+
+.second-p {
+    font-weight: 500;
+    padding: 0px;
+}
+
+.h2-class {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.p-last-paragraph {
+    padding: 0px;
+    color: #6B6B6B;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+}
+
+.podpis {
+    font-family: Figtree;
+    display: flex;
+    padding-left: 22px;
+    padding-top: 20px;
+    border-radius: 10px;
+    gap: 15px;
+    font-weight: 700;
+}
+
+.img {
+  border-radius: 50%; /* Скругляем углы */
+  display: block; /* Убирает лишний отступ снизу */
+}
